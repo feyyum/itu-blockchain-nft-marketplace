@@ -1,0 +1,134 @@
+.marquee {
+  z-index: -1;
+}
+
+.marquee_element {
+  margin: 0 32px;
+  font-size: 200px;
+  font-weight: 500;
+  word-spacing: 24px;
+  line-height: 180px;
+  cursor: default;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -40px;
+  margin-bottom: 40px;
+}
+
+.secondary_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 160px;
+  height: 200px;
+  overflow: hidden;
+}
+
+.secondary_image {
+  width: 100%;
+  min-height: 100%;
+  height: auto;
+  resize: contain;
+  cursor: pointer;
+}
+
+.left {
+  margin-left: -200px;
+}
+
+.right {
+  margin-right: -200px;
+}
+
+.hero_content_container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 48px;
+}
+
+.primary_image_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 420px;
+  height: 520px;
+  overflow: hidden;
+}
+
+.primary_image {
+  width: 100%;
+  height: auto;
+  resize: contain;
+  transition: transform 0.5s;
+  cursor: pointer;
+}
+
+.primary_image:hover {
+  transform: scale(1.05);
+  transition: transform 0.5s;
+}
+
+.hero_content_properties {
+  width: 400px;
+}
+
+.hero_content_title {
+  margin-bottom: 24px;
+  font-size: 2.5rem;
+}
+
+.hero_content_arrow_container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.arrow {
+  cursor: pointer;
+}
+
+.hero_content_bid {
+  display: flex;
+  align-items: flex-end;
+  gap: 8px;
+  margin-bottom: 48px;
+}
+
+.hero_content_bid_text {
+  font-size: 2.25rem;
+  font-weight: 100;
+  line-height: 1.4rem;
+}
+
+.quote_container {
+  width: 1280px;
+  margin: 0 auto;
+  padding: 96px 0;
+}
+
+.quote_container > div {
+  display: inline-block;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+.quote {
+  font-size: 2.2rem;
+  font-weight: 100;
+  margin-bottom: 12px;
+}
+
+.quote_author {
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+
+.quote_author > a {
+  text-decoration: none;
+  color: black;
+}

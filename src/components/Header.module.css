@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1280px;
+  margin: 0 auto;
+  padding: 16px 4px;
+}
+
+.logo {
+  font-size: 1.25rem;
+  font-weight: 100;
+}
